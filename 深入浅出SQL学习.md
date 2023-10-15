@@ -12,6 +12,8 @@ https://wangchujiang.com/mysql-tutorial/21-minutes-MySQL-basic-entry.html
 
 #### 9.25
 
+##### 				第一章 数据和表
+
 1、数据库和表的名称不一定要大写。
 
 2、 命令必须以分号结束。
@@ -94,3 +96,16 @@ https://wangchujiang.com/mysql-tutorial/21-minutes-MySQL-basic-entry.html
 
 
 ##### 10.15
+
+​			第二章 SELECT语句
+
+1.`SELECT 语法` 语句用于从表中选取数据。
+
+```sql
+SELECT 列名称1, 列名称2, ... FROM 表名称;
+SELECT * FROM 表名称;
+```
+
+2.*作用：告诉RDBMS返回表中的所有列。
+
+3.数据类型中,需要单引号的有**VARCHAR,CHAR,BLOB,DATA,**TIME;不需要的是**DEC**和**INT**。
